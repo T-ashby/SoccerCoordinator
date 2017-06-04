@@ -236,6 +236,26 @@ func assignment(team soccerPlayer: [[String: String]]) {
 assignment(team: experienced)
 assignment(team: unexperienced)
 
+// Array holding all letters
+
+var letters: [String] = []
+
+// Logic to create and print personalized team letters
+
+    for teamMember in teamSharks {
+        var sharkLetter = "Congratulations \(teamMember["guardians"]!)! \(teamMember["name"]!) made it onto team Sharks this coming season! First practice is at March 17 at 3pm. Please bring the $15 fee and a water bottle."
+            letters.append(sharkLetter)
+            }
+    for teamMember in teamDragons {
+        var dragonLetter = "Congratulations \(teamMember["guardians"]!)! \(teamMember["name"]!) made it onto team Dragons this coming season! First practice is at March 17 at 1pm. Please bring the $15 fee and a water bottle."
+            letters.append(dragonLetter)
+            }
+    for teamMember in teamRaptors {
+        var raptorLetter = "Congratulations \(teamMember["guardians"]!)! \(teamMember["name"]!) made it onto team Raptors this coming season! First practice is at March 18 at 1pm. Please bring the $15 fee and a water bottle."
+            letters.append(raptorLetter)
+            }
+
+
 
 
 
