@@ -199,4 +199,9 @@ for player in players {
     }
 }
 
+// Variables for collection of teams
+
+var teamSharks: [[String: String]] = []
+var teamDragons: [[String: String]] = []
+var teamRaptors: [[String: String]] = []
 
