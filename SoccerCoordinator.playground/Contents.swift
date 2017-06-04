@@ -236,6 +236,9 @@ func assignment(team soccerPlayer: [[String: String]]) {
 assignment(team: experienced)
 assignment(team: unexperienced)
 
+print(teamSharks)
+print(teamDragons)
+print(teamRaptors)
 
 
 
