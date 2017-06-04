@@ -231,6 +231,11 @@ func assignment(team soccerPlayer: [[String: String]]) {
     }
 }
 
+// Calling function to assign teams 
+
+assignment(team: experienced)
+assignment(team: unexperienced)
+
 
 
 
