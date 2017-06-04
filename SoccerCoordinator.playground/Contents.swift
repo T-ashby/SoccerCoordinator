@@ -205,3 +205,34 @@ var teamSharks: [[String: String]] = []
 var teamDragons: [[String: String]] = []
 var teamRaptors: [[String: String]] = []
 
+// Index count for function 
+
+var playerIndex = 0
+
+// Function to collect players evenly for teams.
+
+func assignment(team soccerPlayer: [[String: String]]) {
+    
+    while playerIndex < soccerPlayer.count {
+        
+        teamSharks.append(soccerPlayer[playerIndex])
+        playerIndex += 1
+        
+        teamDragons.append(soccerPlayer[playerIndex])
+        playerIndex += 1
+        
+        teamRaptors.append(soccerPlayer[playerIndex])
+        playerIndex += 1
+        
+    }
+    
+    if playerIndex == soccerPlayer.count {
+        playerIndex = 0
+    }
+}
+
+
+
+
+
+
