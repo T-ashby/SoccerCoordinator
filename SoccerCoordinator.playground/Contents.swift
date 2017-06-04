@@ -179,5 +179,24 @@ var players = [
     player15, player16, player17, player18
 ]
 
+// Variables for experienced amd unexperienced players
+
+var experienced: [[String: String]] = []
+var unexperienced: [[String: String]] = []
+
+// For-in loop used to seperate experienced players
+
+for player in players {
+    
+    if player["experience"] == "Yes" {
+        
+        experienced.append(player)
+        
+    } else {
+        
+        unexperienced.append(player)
+        
+    }
+}
 
 
