@@ -255,7 +255,9 @@ var letters: [String] = []
             letters.append(raptorLetter)
             }
 
+// Print all individual letters in array
 
-
-
+for individualLetter in letters {
+    print(individualLetter)
+}
 
